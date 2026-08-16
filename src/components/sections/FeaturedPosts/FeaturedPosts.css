@@ -1,0 +1,90 @@
+.featured-posts__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+}
+
+.post-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  padding-bottom: var(--space-5);
+}
+
+.post-card__image {
+  position: relative;
+  aspect-ratio: 16 / 11;
+}
+
+.post-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post-card__badge {
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-3);
+  background: var(--color-red);
+  color: #fff;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  padding: 0.15rem 0.6rem;
+  border-radius: var(--radius-sm);
+}
+
+.post-card__tags {
+  display: flex;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-4) 0;
+  font-size: var(--fs-xs);
+  color: var(--color-text-light);
+}
+
+.post-card__tags span:first-child {
+  color: var(--color-accent);
+}
+
+.post-card h3 {
+  padding: var(--space-2) var(--space-4) 0;
+  font-size: var(--fs-md);
+  font-weight: 700;
+}
+
+.post-card__description {
+  padding: var(--space-2) var(--space-4) 0;
+  font-size: var(--fs-sm);
+  color: var(--color-text-muted);
+}
+
+.post-card__meta {
+  display: flex;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-4) 0;
+  font-size: var(--fs-xs);
+  color: var(--color-text-muted);
+}
+
+.post-card__meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.post-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  margin: var(--space-4) var(--space-4) 0;
+  font-size: var(--fs-sm);
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .featured-posts__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

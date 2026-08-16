@@ -1,0 +1,58 @@
+:root {
+  /* colors */
+  --color-text: #1d2a3a;
+  --color-text-muted: #6b7280;
+  --color-text-light: #9ca3af;
+  --color-bg: #ffffff;
+  --color-bg-alt: #f7f7f8;
+  --color-border: #e5e7eb;
+
+  --color-accent: #4a90e2;
+  --color-accent-dark: #3a7bc8;
+  --color-green: #2f9e6e;
+  --color-green-dark: #1f6f52;
+  --color-red: #e5484d;
+  --color-yellow: #ffc531;
+
+  --color-topbar-bg: #1f6f52;
+  --color-topbar-text: #ffffff;
+
+  --color-tile-pink: #f3e4de;
+  --color-tile-blue: #e8edf1;
+  --color-tile-sage: #a9bcae;
+  --color-tile-texture: #e7e5e0;
+
+  /* typography */
+  --font-family: 'Mulish', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.5rem;
+  --fs-xl: 2rem;
+  --fs-2xl: 2.5rem;
+
+  /* spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-8: 3rem;
+  --space-10: 4rem;
+  --space-12: 5rem;
+
+  /* layout */
+  --content-max-width: 1240px;
+  --content-padding-mobile: 1rem;
+  --content-padding-desktop: 2rem;
+
+  /* breakpoints (reference only, used in media queries directly) */
+  --bp-tablet: 768px;
+  --bp-desktop: 1024px;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --shadow-card: 0 2px 12px rgba(29, 42, 58, 0.08);
+}
